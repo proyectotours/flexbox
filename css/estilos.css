@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Lobster&display=swap');
+
+@import url(fontello.css);
+@import url(menu.css);
+
+body,
+html{
+   font-family: 'kameron';
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}

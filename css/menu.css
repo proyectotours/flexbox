@@ -1,0 +1,112 @@
+.header{
+   width: 100%;
+   background: #262626;
+}
+.container {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.container-logo-nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.logo{
+   flex: 1;
+}
+
+.menu-area ul {
+   list-style-type: none;
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.menu-area li {
+   flex: auto;
+}
+
+.menu-area .icon-area {
+   flex: auto;
+}
+
+.menu-area a {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   transition: .6s;
+   color: #F2F2F2;
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-decoration: none;
+   background: #262626;
+   padding: 20px 15px;
+}
+
+.menu-area a:hover {
+   background: #aa32ff;
+}
+
+.toggle{
+   display: none;
+}
+
+.toggle span{
+   display: block;
+   width: 40px;
+   height: 3px;
+   margin: 3px;
+   background: #fff;
+}
+
+@media all and (max-width: 1000px) {
+   .menu-area ul {
+      flex-wrap: nowrap;
+   }
+
+   .menu-area li {
+      flex: 1 1 50%;
+   }
+
+   .menu-area a {
+      flex: 1 1 25%;
+   }
+}
+
+@media all and (max-width: 800px) {
+   .menu-area ul {
+      flex-wrap: wrap;
+   }
+
+   .menu-area li {
+      flex: 1 1 50%;
+   }
+
+   .menu-area a {
+      flex: 1 1 25%;
+   }
+}
+
+@media all and (max-width: 768px) {
+  
+   #navigation ul{
+      display: none;
+   } 
+   #navigation ul.active{
+      display: flex;
+   }
+   .menu-area ul {
+      flex-wrap: wrap;
+   }
+   .menu-area li {
+      flex-basis: 100%;
+   }
+   .toggle{
+      display: block;
+   }
+}
