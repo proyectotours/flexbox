@@ -12,3 +12,90 @@ html{
    padding: 0;
    box-sizing: border-box;
 }
+
+
+.container__cards{
+   width: 100%;
+}
+.content_cards{
+   width: 70%;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   text-align: center;
+}
+.cards{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.card{
+   width: 30%;
+   margin: 20px;
+}
+.card .img img{
+   width: 100%;
+   margin-bottom: 10px;
+}
+.card .titulo h1{
+   font-size: 1.5em;
+   margin-bottom: 10px;
+}
+.card text_enlace p{
+   font-size: .8em;
+   text-align: center;
+   
+}
+.card .text_enlace button{
+   margin-top: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #0FA22E;
+   background-color: #fff;
+   padding: 5px;
+   font-weight: bolder;
+}
+.aside{
+   width: 30%;
+}
+@media screen and (max-width: 768px) {
+   .content_cards {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+   .card {
+      width: 100%;
+      margin: 20px;
+   }
+   
+   .card .img img {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+   
+   .card .titulo h1 {
+      font-size: 1em;
+      margin-bottom: 10px;
+   }
+   
+   .card .text_enlace p {
+      font-size: .8em;
+      text-align: center;
+      margin-bottom: 20px;
+   }
+   
+   .card .text_enlace button {
+      border: 1px solid #0FA22E;
+      background-color: #fff;
+      padding: 5px;
+      font-weight: bolder;
+      margin-bottom: 20px;
+   }
+}
