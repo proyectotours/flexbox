@@ -2,6 +2,7 @@
 
 @import url(fontello.css);
 @import url(menu.css);
+@import url(social.css);
 
 body,
 html{
@@ -12,7 +13,6 @@ html{
    padding: 0;
    box-sizing: border-box;
 }
-
 
 .container__cards{
    width: 100%;
